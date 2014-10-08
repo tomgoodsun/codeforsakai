@@ -1,0 +1,44 @@
+name        = Code4Sakai
+description = Theme for Code4Sakai
+screenshot  = assets/screenshot.png
+
+core        = 7.x
+engine      = phptemplate
+
+stylesheets[all][] = system.menus.css
+stylesheets[all][] = /common/css/main.css
+
+regions[header]         = Header
+regions[navigation]     = Navigation bar
+regions[highlighted]    = Highlighted
+regions[help]           = Help
+regions[content]        = Content
+regions[sidebar_first]  = First sidebar
+regions[sidebar_second] = Second sidebar
+regions[footer]         = Footer
+regions[bottom]         = Page bottom
+regions[page_top]       = Page top
+regions[page_bottom]    = Page bottom
+
+settings[cfs_breadcrumb]           = yes
+settings[cfs_breadcrumb_separator] = ' › '
+settings[cfs_breadcrumb_home]      = 1
+settings[cfs_breadcrumb_trailing]  = 0
+settings[cfs_breadcrumb_title]     = 0
+settings[cfs_layout]               = cfs-responsive-sidebars
+settings[cfs_skip_link_anchor]     = main-menu
+settings[cfs_skip_link_text]       = Jump to navigation
+settings[cfs_html5_respond_meta][] = respond
+settings[cfs_html5_respond_meta][] = html5
+settings[cfs_html5_respond_meta][] = meta
+settings[cfs_rebuild_registry]     = 0
+settings[cfs_wireframes]           = 0
+
+plugins[panels][layouts] = panels-layouts
+
+; Information added by Drupal.org packaging script on 2014-04-30
+version = "7.x-5.5"
+core = "7.x"
+project = "cfs"
+datestamp = "1398864829"
+
