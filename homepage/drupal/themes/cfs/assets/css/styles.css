@@ -196,7 +196,7 @@ body,#page,#main,#content{color:#000;background-color:transparent !important;bac
 body {
   margin: 0;
   padding: 0;
-  font: 12px Verdana, Sans-Serif, "繝｡繧､繝ｪ繧ｪ", "�ｭ�ｳ �ｰ繧ｴ繧ｷ繝��け", Osaka, "繝偵Λ繧ｮ繝手ｧ偵ざ Pro W3" !important;
+  font: 12px Verdana, Sans-Serif, "メイリオ", "ＭＳ Ｐゴシック", Osaka, "ヒラギノ角ゴ Pro W3" !important;
   color: #444444;
   line-height: 1.7em !important;
   background: #FFF;
@@ -238,7 +238,8 @@ img {
  * Header
  *------------------------------------------------------------*/
 #site-slogan {
-  font-size: 130%;
+  font-family: 'Droid Sans Mono', sans-serif;
+  font-size: 150%;
   letter-spacing: 5px;
   margin: 10px 0;
 }
@@ -382,6 +383,9 @@ img {
 #page-title {
   font-size: 30px;
   font-weight: bold;
+}
+#content article p {
+  margin: 15px 0 15px 0;
 }
 #content article .submitted .username,
 #content article .submitted time {
