@@ -224,10 +224,10 @@ dt {
   font-weight: normal;
 }
 a {
-  color: #444444;
+  color: #31865c;
 }
 a:hover {
-  color: #1c00b8;
+  color: #4fb65c;
 }
 img {
   border: 0;
@@ -240,7 +240,7 @@ img {
 #site-slogan {
   font-family: 'Droid Sans Mono', sans-serif;
   font-size: 150%;
-  letter-spacing: 5px;
+  letter-spacing: 0px;
   margin: 10px 0;
 }
 #secondary-menu {
@@ -470,4 +470,6 @@ img {
 .contact-form .form-item label {
   width: 12em;
 }
-
+.contact-form .form-item-copy label {
+  width: auto;
+}
